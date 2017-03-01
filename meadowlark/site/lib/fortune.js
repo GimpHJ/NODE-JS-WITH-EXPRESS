@@ -1,4 +1,3 @@
-
 var fortuneCookies = [
 	"Conquer your fears or they will conquer you.",
 	"Rivers need springs.",
@@ -7,7 +6,7 @@ var fortuneCookies = [
 	"Whenever possible, keep it simple.",
 ];
 
-exports.getFortune = function(){
+exports.getFortune = function() {
 	var idx = Math.floor(Math.random() * fortuneCookies.length);
 	return fortuneCookies[idx];
-}
+};
